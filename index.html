@@ -108,8 +108,10 @@
                                 name="_redirect"
                                 value="https://www.jealife.agency.com/"
                               /> -->
-                              <input type="hidden" name="_email.subject" value="You have a new message From JEaLiFe Agency!" />
-                                <input type="hidden" name="_feedback.success.title" value="Merci ! Nous vous informerons dès que la plateforme sera disponible !" />
+                                <input type="hidden" name="_email.subject"
+                                    value="You have a new message From JEaLiFe Agency!" />
+                                <input type="hidden" name="_feedback.success.title"
+                                    value="Merci ! Nous vous informerons dès que la plateforme sera disponible !" />
                                 <input type="email" id="email" name="email" required=""
                                     class="sm:w-80 w-full h-10 focus:outline-none text-gray-900 placeholder-gray-400 text-sm font-normal leading-relaxed px-3.5 py-2 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] border border-gray-300"
                                     placeholder="Your mail">
@@ -191,6 +193,9 @@
                     }
                 }
             }, 10);
+        </script>
+        <script>
+            import { Analytics } from "@vercel/analytics/react"
         </script>
 
     </main>
